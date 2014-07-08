@@ -33,16 +33,8 @@ have a working ROS core running, a touchscreen using ts library):
 Node
 ----------------------
 
-### Subscribed Topics
-
-
 ### Published Topics
 
 - `touch`
       * Publish the touch event of the touchscreen
 
-
-### Services
-
-
-### Parameters
