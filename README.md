@@ -35,6 +35,7 @@ Node
 
 ### Published Topics
 
-- `touch`
+- `/hiwr_touchscreen/touch_event`
       * Publish the touch event of the touchscreen
+
 
