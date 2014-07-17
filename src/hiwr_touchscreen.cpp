@@ -28,7 +28,7 @@ HiwrTouchscreen::HiwrTouchscreen(ros::NodeHandle & n):
 void HiwrTouchscreen::loop(){
     ROS_INFO("hiwr_touchscreen started");
 
-    touch_pub_ = nh_.advertise<hyve_msg::TouchEvent>("hiwr_touchscreen/touch_event", 1);
+    touch_pub_ = nh_.advertise<hiwr_msg::TouchEvent>("hiwr_touchscreen/touch_event", 1);
 
     struct tsdev *ts;
 
