@@ -8,12 +8,12 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   rospack
-  hyve_msg
+  hiwr_msg
 )
 
 
 catkin_package(
-  CATKIN_DEPENDS roscpp std_msgs rospack hyve_msg
+  CATKIN_DEPENDS roscpp std_msgs rospack hiwr_msg
 )
 
 include_directories(
